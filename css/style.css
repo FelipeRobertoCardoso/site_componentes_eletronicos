@@ -1,18 +1,40 @@
-*{
-    max-width: 800px;
-    margin: -12px auto;
-    padding: 20px;
-}
-
-body{
+body {
     text-align: center;
     background-color: rgb(11, 6, 37);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
+    padding: 0 1.1rem;
 }
 
-h1{
+h1 {
+    max-height: -20px;
     font-weight: bold;
     color: rgb(91, 206, 206);
+}
+
+p {
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    max-width: 600px;
+}
+
+.Blocos {
+    background-color: rgba(0, 0, 0, 0.301);
+    max-width: 800px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 8px 1.5rem;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
