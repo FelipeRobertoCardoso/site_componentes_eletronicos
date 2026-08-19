@@ -34,23 +34,14 @@ hr {
     border-radius: 8px;
 }
 
-.lado {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.lado img,
-.lado video {
-    flex: 1 1 300px; /* cresce/encolhe, mas não fica menor que 300px */
-    max-width: 45%;
-    min-width: 0;
-    height: auto;
-}
 
 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+video {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
